@@ -1,20 +1,20 @@
-# BlueEdge project outputs
-data/*.csv
-data/*.xlsx
-data/*.zip
-
-results/figures/*.png
-results/figures/*.jpg
-results/figures/*.jpeg
-results/figures/*.pdf
-
-results/tables/*.csv
-results/tables/*.xlsx
+# Private or temporary files
+data/private/
+data/raw_private/
 
 # Model and temporary files
 *.pkl
 *.joblib
 *.zip
 
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
 # Colab temporary paths
 /content/
+
+# System files
+.DS_Store
+Thumbs.db
